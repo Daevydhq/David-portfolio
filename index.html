@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Adeniyi Adeoye | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">David.dev</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="planner.html">Planner</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-eyebrow"><span></span> Welcome to my Portfolio</div>
+        <h1>
+          Hi, I'm <span class="highlight">David<br/>Adeniyi </span>
+        </h1>
+        <p class="hero-bio">
+          Every assignment completed, skill acquired, and milestone reached contributes to your story.
+          Use this platform to manage your academic journey, document your accomplishments, and prepare
+          for the opportunities that lie ahead.
+        </p>
+        <div class="hero-btns">
+          <a href="projects.html" class="btn btn-primary">View My Projects →</a>
+          <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item"><span>2025</span><span>Enrolled</span></div>
+          <div class="stat-item"><span>100L</span><span>Level</span></div>
+          <div class="stat-item"><span>CYB</span><span>Department</span></div>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <img src="images/david.jpeg" alt="David Adeniyi " class="hero-photo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK INTRO -->
+  <section style="background: var(--dark2); padding: 4rem 2rem;">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-eyebrow">What I Bring</span>
+        <h2 class="section-title">Skills &amp; <span>Focus Areas</span></h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem;">
+        <div class="card fade-up" style="text-align:center;">
+          <div style="font-size:2.5rem; margin-bottom:1rem;">🔐</div>
+          <h3 style="margin-bottom:0.5rem; font-family:var(--font-display);">Cyber Security</h3>
+          <p style="color:var(--muted); font-size:0.9rem;">Network security, ethical hacking principles, and digital forensics fundamentals.</p>
+        </div>
+        <div class="card fade-up" style="text-align:center;">
+          <div style="font-size:2.5rem; margin-bottom:1rem;">💻</div>
+          <h3 style="margin-bottom:0.5rem; font-family:var(--font-display);">Web Development</h3>
+          <p style="color:var(--muted); font-size:0.9rem;">Building responsive, modern websites using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="card fade-up" style="text-align:center;">
+          <div style="font-size:2.5rem; margin-bottom:1rem;">📊</div>
+          <h3 style="margin-bottom:0.5rem; font-family:var(--font-display);">Problem Solving</h3>
+          <p style="color:var(--muted); font-size:0.9rem;">Logical thinking and algorithm design in C and other programming languages.</p>
+        </div>
+        <div class="card fade-up" style="text-align:center;">
+          <div style="font-size:2.5rem; margin-bottom:1rem;">🎓</div>
+          <h3 style="margin-bottom:0.5rem; font-family:var(--font-display);">Continuous Learning</h3>
+          <p style="color:var(--muted); font-size:0.9rem;">Always growing — currently pursuing a B.Sc. in Cyber Security at MIVA Open University.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MULTIMEDIA -->
+  <section style="padding: 4rem 2rem;">
+    <div class="container">
+      
+      <div class="section-header fade-up">
+        <span class="section-eyebrow">Learn More</span>
+        <h2 class="section-title">Cyber Security <span>Awareness</span></h2>
+      </div>
+      <div style="max-width:680px; margin:0 auto;" class="fade-up">
+        <div style="background:var(--card-bg); border-radius:var(--radius); overflow:hidden; border:1px solid rgba(108,99,255,0.15);">
+          <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden;">
+            <iframe
+              src="https://www.youtube.com/embed/hxXbvu9J5Pg?rel=0"
+              title="Cyber Security Introduction"
+              style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+            </iframe>
+          </div>
+          <div style="padding:1.25rem;">
+            <p style="color:var(--muted); font-size:0.9rem;">
+              🎬 Introduction to Cyber Security — an overview of key concepts every digital citizen should know.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 David Adeniyi Adeoye </p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

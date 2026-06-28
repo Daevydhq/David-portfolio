@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | David Adeniyi Adeoye</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .social-links { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; }
+    .social-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0.6rem 1.2rem;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      transition: var(--transition);
+      border: 2px solid;
+    }
+    .social-btn.ig  { border-color: #E1306C; color: #E1306C; }
+    .social-btn.ig:hover  { background: #E1306C; color: white; }
+    .social-btn.li  { border-color: #0A66C2; color: #0A66C2; }
+    .social-btn.li:hover  { background: #0A66C2; color: white; }
+    .social-btn.wa  { border-color: #25D366; color: #25D366; }
+    .social-btn.wa:hover  { background: #25D366; color: white; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">David.dev</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="planner.html">Planner</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="page-hero">
+    <h1>About <span style="background:linear-gradient(135deg,var(--primary),var(--secondary));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Me</span></h1>
+    <p>Get to know David Adeniyi Adeoye</p>
+  </div>
+
+  <!-- BIO & INFO -->
+  <section>
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-text fade-up">
+          <h3>Hello &amp; Welcome!</h3>
+          <p>
+            My name is David Adeoye, and I was born on April 22, 1997, to Mr. and Mrs. Adeoye.
+            My journey has been driven by a passion for continuous learning, personal growth, and
+            creating meaningful impact wherever I find myself.
+          </p>
+          <p>
+            Over the years, I have developed a strong appreciation for education, creativity, and
+            self-improvement. I believe that every experience presents an opportunity to learn, grow,
+            and contribute positively to the lives of others. These values continue to shape my
+            academic, professional, and personal pursuits.
+          </p>
+          <p>
+            This website serves as a reflection of my journey, showcasing my achievements, experiences,
+            projects, and aspirations. It is a space where I share my work, document my growth, and
+            connect with individuals who share similar interests and goals.
+          </p>
+          <p style="color:var(--accent); font-style:italic;">
+            Thank you for visiting — I invite you to explore my portfolio and learn more about my journey.
+          </p>
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <a class="social-btn ig" href="https://www.instagram.com/swiftimprints?utm_source=qr&igsh=MWFsdjZqYzdhcW9maQ==" target="_blank" rel="noopener">
+              📸 Instagram
+            </a>
+            <a class="social-btn li" href="https://www.linkedin.com/in/david-adeniyi-a-998509254?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">
+              💼 LinkedIn
+            </a>
+            <a class="social-btn wa" href="https://wa.me/+2347068038739" target="_blank" rel="noopener">
+              💬 WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="fade-up">
+          <div class="card" style="margin-bottom:1.5rem;">
+            <h3 style="font-family:var(--font-display); margin-bottom:1rem; color:var(--accent);">Personal Details</h3>
+            <table class="info-table">
+              <tbody>
+                <tr><td>Full Name</td><td>David Adeniyi Adeoye</td></tr>
+                <tr><td>Date of Birth</td><td>April 22, 1997</td></tr>
+                <tr><td>Matric Number</td><td>2025/A/CYB/0608</td></tr>
+                <tr><td>Department</td><td>Cyber Security</td></tr>
+                <tr><td>Institution</td><td>MIVA Open University</td></tr>
+                <tr><td>Level</td><td>100 Level</td></tr>
+                <tr><td>Email</td><td>d.adeoye2066@miva.edu.ng</td></tr>
+                <tr><td>Nationality</td><td>Nigerian</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="card">
+            <h3 style="font-family:var(--font-display); margin-bottom:1rem; color:var(--accent);">Hobbies &amp; Interests</h3>
+            <div class="hobbies-list">
+              <span class="hobby-tag">⚽ Football</span>
+              <span class="hobby-tag">✈️ Travelling</span>
+              <span class="hobby-tag">🍳 Cooking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATIONAL BACKGROUND -->
+  <section style="background:var(--dark2); padding: 4rem 2rem;">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-eyebrow">Education</span>
+        <h2 class="section-title">Academic <span>Background</span></h2>
+      </div>
+      <div style="max-width:700px; margin:0 auto; display:flex; flex-direction:column; gap:1.5rem;">
+
+        <div class="card fade-up" style="border-left: 4px solid var(--primary);">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.75rem;">
+            <h3 style="font-family:var(--font-display);">B.Sc. Cyber Security</h3>
+            <span style="background:rgba(255,107,53,0.15); color:var(--primary); padding:0.25rem 0.75rem; border-radius:50px; font-size:0.8rem; font-weight:600;">2025 – Present</span>
+          </div>
+          <p style="color:var(--accent); font-weight:600; margin-bottom:0.5rem;">MIVA Open University</p>
+          <p style="color:var(--muted); font-size:0.9rem;">Currently pursuing a Bachelor of Science degree in Cyber Security. Core courses include Introduction to Web Technologies (COS 106), Problem Solving (COS 102), Computer Programming, and Information Security fundamentals.</p>
+        </div>
+
+        <div class="card fade-up" style="border-left: 4px solid var(--secondary);">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.75rem;">
+            <h3 style="font-family:var(--font-display);">Senior Secondary Education</h3>
+            <span style="background:rgba(108,99,255,0.15); color:var(--secondary); padding:0.25rem 0.75rem; border-radius:50px; font-size:0.8rem; font-weight:600;">2008 – 2014</span>
+          </div>
+          <p style="color:var(--accent); font-weight:600; margin-bottom:0.5rem;">Vera Grace Comprehensive College</p>
+          <p style="color:var(--muted); font-size:0.9rem;">Completed senior secondary education, building a solid academic foundation across core sciences and humanities that prepared me for university-level study.</p>
+        </div>
+
+        <div class="card fade-up" style="border-left: 4px solid var(--accent);">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.75rem;">
+            <h3 style="font-family:var(--font-display);">Primary Education</h3>
+            <span style="background:rgba(0,217,192,0.12); color:var(--accent); padding:0.25rem 0.75rem; border-radius:50px; font-size:0.8rem; font-weight:600;">2002 – 2008</span>
+          </div>
+          <p style="color:var(--accent); font-weight:600; margin-bottom:0.5rem;">Prudence Nursery &amp; Primary School</p>
+          <p style="color:var(--muted); font-size:0.9rem;">Completed nursery and primary education, laying the early foundation for literacy, numeracy, and a love of learning that has carried through my academic journey.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CAREER ASPIRATIONS -->
+  <section style="padding: 4rem 2rem;">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-eyebrow">Vision</span>
+        <h2 class="section-title">Career <span>Aspirations</span></h2>
+      </div>
+      <div class="card fade-up" style="max-width:760px; margin:0 auto; border-left:4px solid var(--primary);">
+        <p style="color:var(--muted); line-height:1.9; margin-bottom:1rem;">
+          My career aspiration is to build a meaningful and impactful professional journey that combines
+          creativity, innovation, and continuous learning. I am committed to developing my skills, gaining
+          valuable experience, and contributing to projects that create real value for individuals and organizations.
+        </p>
+        <p style="color:var(--muted); line-height:1.9; margin-bottom:1rem;">
+          As someone with a passion for design and personal growth, I aspire to establish myself as a highly
+          skilled professional, known for delivering quality work, solving problems creatively, and embracing
+          new challenges. I am particularly interested in leveraging technology and design to communicate ideas
+          effectively and create engaging user experiences.
+        </p>
+        <p style="color:var(--muted); line-height:1.9;">
+          In the long term, I aim to become a leader in my field, mentor others, and contribute to initiatives
+          that drive positive change within my community and beyond. Through dedication, adaptability, and
+          lifelong learning, I hope to leave a lasting impact both professionally and personally.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNICAL SKILLS -->
+  <section style="background:var(--dark2); padding: 4rem 2rem;">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-eyebrow">Capabilities</span>
+        <h2 class="section-title">Technical <span>Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🌐</div>
+          <div class="skill-name">HTML5</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="85%" style="width:0%"></div></div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🎨</div>
+          <div class="skill-name">CSS3</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="78%" style="width:0%"></div></div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">⚡</div>
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="65%" style="width:0%"></div></div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">⚙️</div>
+          <div class="skill-name">C Programming</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="70%" style="width:0%"></div></div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🔐</div>
+          <div class="skill-name">Network Security</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="60%" style="width:0%"></div></div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🐧</div>
+          <div class="skill-name">Linux Basics</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="55%" style="width:0%"></div></div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🔍</div>
+          <div class="skill-name">Digital Forensics</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="50%" style="width:0%"></div></div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🧠</div>
+          <div class="skill-name">Problem Solving</div>
+          <div class="skill-bar-wrap"><div class="skill-bar" data-width="88%" style="width:0%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 David Adeniyi Adeoye </p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
